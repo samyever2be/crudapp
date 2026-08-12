@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container{
+  max-width: 600px;
+  margin: 20px auto;
+}
+h3{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  color: #333;
+}
+
+.btn {  
+  display: inline-block;
+  padding: 8px 10px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  cursor: pointer;
+
+}
+.green{
+  background-color: #28a745;
+}
+
+.btn.green:hover {
+  background-color: #218838;
+}
+
+.red{
+  background-color: #dc3545;
+}
+.btn.red:hover {
+  background-color: #c82333;
+}
+
+.input-search{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.input-search input{
+  width: 300px;
+  padding: 8px; 
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.table{
+  width: 100%;
+  border-collapse: collapse;
+  cursor: pointer;
+}
+
+.table th, .table td{
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table th{
+  background-color: #f2f2f2;
+}
+
+.table tr:nth-child(even){
+  background-color: #f9f9f9;
+}
+.table tr:hover{
+  background-color: #f1f1f1;
+}
+
+
+.modal{
+  display:block;
+  position: fixed; 
+  z-index: 1; 
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content{
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 4px;
+  width: 80%;
+}
+
+.close{
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover{
+  cursor: pointer;
+  color: #000;
+}
+
+.modal h2{
+  font-weight:500;
+  margin-bottom: 20px;
+}
+
+.input-group{
+  margin-bottom: 10px;
+}
+
+.input-group label{
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.input-group input{
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  outline: none;
+}

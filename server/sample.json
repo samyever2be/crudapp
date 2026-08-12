@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Ram Kumar",
+    "age": 25,
+    "city": "Salem"
+  },
+  {
+    "id": 2,
+    "name": "Kumar",
+    "age": 12,
+    "city": "Chennai"
+  },
+  {
+    "id": 7,
+    "name": "Ameer Khan",
+    "age": 44,
+    "city": "Chennai"
+  },
+  {
+    "id": 8,
+    "name": "Itiya",
+    "age": 22,
+    "city": "Banglore"
+  },
+  {
+    "id": 9,
+    "name": "Zara",
+    "age": 15,
+    "city": "HOSURE"
+  },
+  {
+    "id": 1786216866609,
+    "name": "Chaitanya",
+    "age": "30",
+    "city": "Bangalore"
+  },
+  {
+    "id": 1786217112732,
+    "name": "Murali",
+    "age": "30",
+    "city": "Bangalore"
+  },
+  {
+    "id": 1786471549496,
+    "name": "Samyappa",
+    "age": "38",
+    "city": "Chennai"
+  }
+]
